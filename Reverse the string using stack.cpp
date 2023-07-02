@@ -14,10 +14,10 @@ int main(){
 
     string ans = "";
     while(!s.empty()) {
-        char ch = s.top();
-        ans.push_back(ch);
+    char ch = s.top();
+    ans.push_back(ch);
 
-        s.pop();
+    s.pop();
     }
 
     cout <<"Answer is" << ans <<endl;
